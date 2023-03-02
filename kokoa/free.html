@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>
+            Home - create an account
+        </title>
+    </head>
+    <body>
+        <h1>Create An Account</h1>
+
+        <p><label for="first-name">First name</label>
+        <input placeholder="First name" type="text" id="first-name" /></p>
+
+        <p><label for="last-name">Last name</label>
+        <input placeholder="Last name" type="text" id="last-name"/></p>
+
+        <p><label for="email">Email</label>
+        <input placeholder="Email" type="email" id="email" /></p>
+
+        <p><label for="username">Username</label>
+        <input required placeholder="Username" type="text" id="username" /></p>
+
+        <p><label for="password">Password</label>
+        <input required placeholder="Password" type="password" id="password" required minlength="10" /></p>
+
+        <p><label for="birth">Birth</label>
+        <input required placeholder="Birth" type="date" id="birth" /></p>
+        
+        <p><label for="happy">How happy are you?</label>
+        <input type="range" id="happy" list="markers"/>
+        <datalist id="markers">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+          </datalist></p>
+
+        <p><label for="color">What is your fav.color?</label>
+        <input type="color" id="color"></p>
+
+        <p><input type="submit" value="Create Account" /></p>
+    </body>
+</html>
